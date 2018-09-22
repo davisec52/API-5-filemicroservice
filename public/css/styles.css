@@ -18,10 +18,26 @@ body {
 }
 
 .main {
-    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
 }
 
-.choose {
+/*.choose {
     width: 600px;
     height: 300px;
+}*/
+
+.choose {
+    width: 50%;
+    /*height: 300px;*/
+}
+
+#choose-file {
+    width: 40%;
+}
+
+#sub-btn {
+    width: 150px;
 }
