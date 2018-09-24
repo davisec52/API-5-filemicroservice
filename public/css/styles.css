@@ -24,20 +24,27 @@ body {
     margin: 0 auto;
 }
 
-/*.choose {
-    width: 600px;
-    height: 300px;
-}*/
+.file-form {
+    display: flex;
+    flex-direction: column;
+}
 
 .choose {
     width: 50%;
-    /*height: 300px;*/
+    display: flex;
+    flex-direction: column;
 }
 
 #choose-file {
     width: 40%;
+    margin-bottom: 10px;
 }
 
 #sub-btn {
     width: 150px;
+    margin-bottom: 10px;
+}
+
+#clear {
+    width: 100px;
 }
